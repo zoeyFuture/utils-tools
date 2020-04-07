@@ -30,4 +30,4 @@ expect(formatString('这是字符串')).toBe('这是字符串')
 ```
 
 #### 结果
-[](https://global.uban360.com/sfs/file?digest=fid5d04605cace3198d6317416adbdb8676&fileType=2)
+![](https://global.uban360.com/sfs/file?digest=fid5d04605cace3198d6317416adbdb8676&fileType=2)

@@ -33,4 +33,3 @@ describe('清理对象参数值，过滤不合法参数',() => {
     expect(clearObject('')).toBe('')
   })
 })
-

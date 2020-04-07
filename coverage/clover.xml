@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586243235748" clover="3.2.0">
-  <project timestamp="1586243235748" name="All files">
+<coverage generated="1586251971029" clover="3.2.0">
+  <project timestamp="1586251971029" name="All files">
     <metrics statements="52" coveredstatements="44" conditionals="69" coveredconditionals="58" methods="9" coveredmethods="8" elements="130" coveredelements="110" complexity="0" loc="52" ncloc="52" packages="1" files="7" classes="7"/>
     <file name="clearObject.js" path="D:\selfWorkspace\utils-tools\src\clearObject.js">
       <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>

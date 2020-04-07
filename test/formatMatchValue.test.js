@@ -44,18 +44,20 @@ const arr2 = [
   },
 ]
 
-test('验证获取匹配值', () => {
-  expect(formatMatchValue(1, arr1)).toBe('一')
-  expect(formatMatchValue(0, arr1)).toBe('-')
-  expect(formatMatchValue(-1)).toBe('-')
-  expect(formatMatchValue(3, arr2, 'type', 'name')).toBe('三')
-  expect(formatMatchValue(3, arr2, 'type', 'value')).toBe('-')
-  expect(formatMatchValue(3, arr2, 'label', 'name')).toBe('-')
-  expect(formatMatchValue(3, arr2, 'label', 'value')).toBe('-')
-  expect(formatMatchValue(8, arr2, 'type', 'name')).toBe('-')
-  expect(formatMatchValue(3)).toBe('-')
-  expect(formatMatchValue([])).toBe('-')
-  expect(formatMatchValue({})).toBe('-')
-  expect(formatMatchValue(null)).toBe('-')
-  expect(formatMatchValue(undefined)).toBe('-')
+describe('验证获取匹配值',() => {
+  test('验证获取匹配值', () => {
+    expect(formatMatchValue(1, arr1)).toBe('一')
+    expect(formatMatchValue(0, arr1)).toBe('-')
+    expect(formatMatchValue(-1)).toBe('-')
+    expect(formatMatchValue(3, arr2, 'type', 'name')).toBe('三')
+    expect(formatMatchValue(3, arr2, 'type', 'value')).toBe('-')
+    expect(formatMatchValue(3, arr2, 'label', 'name')).toBe('-')
+    expect(formatMatchValue(3, arr2, 'label', 'value')).toBe('-')
+    expect(formatMatchValue(8, arr2, 'type', 'name')).toBe('-')
+    expect(formatMatchValue(3)).toBe('-')
+    expect(formatMatchValue([])).toBe('-')
+    expect(formatMatchValue({})).toBe('-')
+    expect(formatMatchValue(null)).toBe('-')
+    expect(formatMatchValue(undefined)).toBe('-')
+  })
 })
